@@ -1,0 +1,42 @@
+# Dependencias de Node.js
+node_modules/
+package-lock.json
+
+# Variables de entorno
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Editor de código y configuraciones de IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Caché y archivos temporales
+.tmp/
+.cache/
+
+# Directorios de construcción y salida
+dist/
+build/
+
+# PM2 (si usas este gestor de procesos)
+.pm2/
+
+# Debug y perfiles
+*.pid
+*.seed
+*.cover
